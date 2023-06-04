@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}
+CSE Help - Home
+{% endblock title %}
+
+{% block content %}
+<main>
+    <section class="site-title">
+
+        <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+            <h1>"{{ quate.quate }}"</h3>
+            <h3>- {{ quate.author }}</h3>
+            <button class="btn">Explore</button>
+        </div>
+    </section>
+
+    <section>
+        {% include 'carosel.html' %}
+    </section>
+
+    <section class="container">
+        {% include 'container.html' %}
+    </section>
+</main>
+
+
+
+
+
+{% endblock content %}

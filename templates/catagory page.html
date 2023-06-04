@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+{{topic.title}}
+{% endblock title %}
+
+{% block content %}
+<main>
+    <div class="sub-catagory">
+        {% for key,values in datas.items %}
+        {% if values  %}
+        <div class="sub-catagory-title">
+            <h2>
+                {{key}}
+            </h2>
+        </div>
+        
+        <div class="container">
+            <div class="sub-catagory-post">
+                    {% for subcatagory in values %}
+                        <div class="sub-catagory-content">
+                            <a href="/article/{{subcatagory.link}}"><img src="{% get_media_prefix %}{{subcatagory.sub_catagory_image}}" alt="Post One">
+                                <div class="sub-catagory-title">
+                                    <h2>{{subcatagory.sub_catagory_name}}</h2>
+                                </div>
+                            </a>
+                        </div>
+                    {% endfor %}
+
+            </div>
+        </div>
+        {% else%}
+        <h1 style="height: 20rem; text-align:center;">
+            Sorry! no content found.
+        </h1>
+
+        {% endif %}
+
+        {% endfor %}
+    </div>
+
+    
+
+</main>
+{% endblock content %}

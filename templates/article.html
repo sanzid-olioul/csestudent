@@ -1,0 +1,178 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+{{topic.title}}
+{% endblock title %}
+
+{% block content %}
+
+
+<main>
+<section class="container">
+
+    <div class="site-content">
+        <div class="post">
+
+            <div class="post-content">
+            
+                <div class="post-image">
+                    <div>
+                        <img src="{% static 'asset/notebook.jpg' %}" class="img" alt="Girl Image"> 
+                    </div>
+                    <div class="post-info flex-row">
+                        <span>
+                            <i class="fas fa-user text-gray">&nbsp;&nbsp;{{topic.author}}</i>
+                        </span>
+                        <span>
+                            <i class="fas fa-calendar-alt text-gray">&nbsp;&nbsp;{{topic.date_created}}</i>
+                        </span>
+                            <span>{{topic.comment_no}} Comments </span>
+                        
+
+                    </div>
+
+                </div>
+
+                <div class="post-title">
+                    <a href="#">{{topic.title}}</a>
+                    {{topic.blog_post | safe}}
+
+                </div>
+            </div>
+
+
+            <div class="pagination flex-row">
+                {% if page.has_previous %}
+                <a href="?page={{page.previous_page_number}}" class="pages">previous</a>
+                {% endif %}
+                {% if page.has_next %}
+                <a href="?page={{page.next_page_number}}" class="pages">next</a>
+                {% endif %}
+            </div>
+
+
+            <div id="respond">
+
+                <h3>Leave a Comment</h3>                
+              
+                <form action="addcomment" method="post" id="commentform">
+                {% csrf_token %}
+              
+                  <label for="comment_author" class="required">Your name</label>
+                  <input type="text" placeholder="Name" name="comment_author" id="comment_author" class="comment-form" value="" tabindex="1" required="required">
+              
+                  <label for="email" class="required">Your email</label>
+                  <input type="email" placeholder="Email" name="email" class="comment-form" id="email" value="" tabindex="2" required="required">
+              
+                  <label for="comment" class="required">Your message</label>
+                  <textarea name="comment" placeholder= "Comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+              
+                  <input type="hidden" name="comment_post_ID" value="{{topic.id}}" id="comment_post_ID" />
+                  <button type="submit" class="btn">Submit</button>
+              
+                </form>
+                <br>
+            </div>
+
+
+            {% for comment in comments %}
+
+            <div class="written-comment">
+
+                <div class="comment-thread">
+                    <!-- Comment  start -->
+                    <div class="comment">
+                        <a href="#comment-1" class="comment-border-link">
+                            <span class="sr-only">Jump to comment-1</span>
+                        </a>
+                        <div class="comment-heading">   
+                            <div class="comment-voting">
+                                <!-- 
+                                    image field
+                                 -->
+                                 <i class="fas fa-user text-gray fa-3x" ></i>
+                            </div>
+                            <div class="comment-info">
+                                <a href="#" class="comment-author">{{comment.comment.name}}</a>
+                            </div>
+                        </div>
+
+                        <div class="comment-body">
+                            <p>
+                               {{comment.comment.comment}}
+                            </p>
+                        </div>
+                        
+                        <div class="replies">
+
+                            <!-- reaply start -->
+                            
+
+                            {% for reaply in comment.reaplies %}
+                            <div class="comment" id="comment-2">
+                                <div class="comment-heading">
+                                    <div class="comment-voting">
+                                        <i class="fas fa-user text-gray fa-3x" ></i>
+                                    </div>
+                                    <div class="comment-info">
+                                        <a href="#" class="comment-author">{{reaply.name}}</a>
+                                    </div>
+                                </div>
+                
+                                <div class="comment-body">
+                                    <p>
+                                        {{reaply.reaply}}
+                                    </p>
+                                </div>
+                            </div>
+                            {% endfor %}
+
+                        </div>
+                        {% if user.is_authenticated %}
+
+
+
+                            <form action="article/addreaply" method="post" id="reaplyform"style="padding-left: 3rem;">
+                                {% csrf_token %}
+                                <input type="text" hidden name="name" id="name_r" value={{user.get_username}}>
+                                <input type="email" hidden name="email" id="email_r" value="{{user.email}}">
+                                <input type="text" hidden name="cmnt" id="cmnt" value={{comment.comment.id}}>
+                                <input type="text" placeholder="reaply" name="reaply" id="reaply" class="comment-form" value="" tabindex="1" required="required">
+                                <br>
+                                <button type="submit" style="font-size: larger; color: #104f55; font-weight: bold; outline: none; border: none;">Submit</button>
+                            
+                            </form>
+                        {% endif %}
+                    </div>
+                    <!-- Comment end -->
+                </div>
+                
+            </div>
+
+            {% endfor %}
+
+        </div>  
+
+        <aside class="sidebar">
+            <div class="category">
+                <h2>{{aside_topics.sub_catagory_name}} Tutorial</h2>
+                <ul class="category-list">
+
+                    {% for aside_topic in aside_datas.topics %}
+                    <li class="list-items" style="width: 100%; margin:.2rem">
+                        <a href="/article/{{aside_topic.id}}">{{aside_topic.title}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+        </aside>
+
+    </div>
+
+</section>
+
+</main>
+
+{% endblock content %}

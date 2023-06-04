@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock title %}</title>
+    <link rel="shortcut icon" href="{% static '/asset/logo.png' %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static '/css/all.css' %}">
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+    <link rel="stylesheet" href="{% static '/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static '/css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static '/css/aos.css' %}">
+    {% block links %}
+    {% endblock links %}
+</head>
+<body>
+
+<!-- -------------NAvigation bar--------------- -->
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">
+                    <img src="{% static '/asset/logo.png' %}" alt="CSE help" srcset="" style="margin-top: -.58rem" >
+                </a>
+            </div>
+
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+
+
+
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="/catagory">Catagory</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="/motive">Motive</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="/about">About Me</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="/privacy">Privacy Policy</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="social text-gray">
+                <a href="{{ facebook }}"><i class="fab fa-facebook-f"></i></a>
+                <a href="{{ instagram }}"><i class="fab fa-instagram"></i></a>
+                <a href="{{ twitter }}"><i class="fab fa-twitter"></i></a>
+                <a href="{{ youtube }}"><i class="fab fa-youtube"></i></a>
+                <a href="{{ linkedin }}"><i class="fab fa-linkedin-in"></i></a>
+                <a href="{{ github }}"><i class="fab fa-github"></i></a>
+                
+            </div>
+
+
+        </div>
+
+    </nav>
+
+    <!-- --------x--------NAvigation bar------------------x------- -->
+
+
+
+    <!-- ---------------------------------- Main Body part ------------------------ -->
+
+    {% block content %}
+
+    {% endblock content %}
+
+    <!-- -------------------------------Footer starts------------------------- -->
+    <footer class="footer">
+        <div class="container">
+            <div class="about-me">
+                <h2>About Me</h2>
+                <p>
+                    Hii there, It's Sanzid Olioul ,
+                    Like Robert Frost, I also have promises to keep, And miles to go before I sleep .
+                    And i wanna collect all the memories of my journey and desire to help others to come through this path.
+                </p>
+            </div>
+
+
+
+            <div class="newsletter">
+                <h2>Newsletter</h2>
+                <p>Stay Update with our latest</p>
+                <div class="form-element">
+                    <form action="subscribe" method="post">
+                        {% csrf_token %}
+                        <input type="text" name="email" id="email" class="input-element" placeholder="Email">
+                        <button type="submit"><i class="fas fa-chevron-right"></i></button>
+                    </form>
+                    
+                </div>
+
+            </div>
+
+
+            <div class="about-me">
+                <h2>objectives</h2>
+                <p>
+                    Main objective of creating this site is to provide
+                    all the subject notes to the cse students and give them
+                    proper guidelines.
+                </p>
+            </div>
+            <div class="follow">
+                <h2>Follow Me</h2>
+                <p>Let me be Social</p>
+                <div>
+                    <a href="{{ facebook }}"><i class="fab fa-facebook-f"></i></a>
+                    <a href="{{ instagram }}"><i class="fab fa-instagram"></i></a>
+                    <a href="{{ twitter }}"><i class="fab fa-twitter"></i></a>
+                    <a href="{{ youtube }}"><i class="fab fa-youtube"></i></a>
+                    <a href="{{ linkedin }}"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="{{ github }}"><i class="fab fa-github"></i></a>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="rights flex-row">
+            <h4 class="text-gray"> Copyright &copy;2020 All rights reserved | made by 
+                <a href="{{ facebook }}" target="_blank">Sanzid <i class="fab fa-facebook-f"></i></a>
+            </h4>
+
+        </div>
+
+
+        <div class="move-up">
+            <span>
+                <i class="fas fa-arrow-circle-up fa-2x"></i>
+            </span>
+            
+        </div>
+    </footer>
+
+
+
+
+
+
+
+   <!-- -----------------x--------------Footer starts-----------------x----------- -->
+
+
+
+
+
+
+
+<!-- -------------- Javascript  ------------- --> 
+<script src="{% static '/js/Jquery.js' %}"></script>
+<script src="{% static '/js/main.js' %}"></script>
+
+<!-- --------------Owl carosel------ -->
+<script src="{% static '/js/owl.carousel.min.js' %}"></script>
+
+
+<!-- -----------------------AOS script------------------------ -->
+
+<script src="{% static '/js/aos.js' %}"></script>
+
+</body>
+</html>

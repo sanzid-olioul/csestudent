@@ -1,0 +1,127 @@
+  {% load static %}
+  <div class="site-content">
+        <div class="post">
+            {% for topic in topics %}
+
+            <div class="post-content-n">
+            
+                <div class="post-image">
+                    <div>
+                        <img src="{% get_media_prefix %}/{{topic.sub_catagory_image}}" class="img" alt="{{topic.sub_catagory_name}}"> 
+                    </div>
+                    <div class="post-info flex-row">
+                        <span>
+                            <i class="fas fa-user text-gray">&nbsp;&nbsp;{{topic.author}}</i>
+                        </span>
+                        <span>
+                            <i class="fas fa-calendar-alt text-gray">&nbsp;&nbsp;{{topic.date_created}}</i>
+                        </span>
+                            <span>{{topic.comment_no}}&nbsp;&nbsp;Comments</span>
+                    </div>
+                </div>
+
+                <div class="post-title">
+                    <a href="/article/{{topic.id}}">{{topic.title}}</a>
+                       {{topic.blog_post | safe}}
+                    <button onclick="window.location.href ='article/{{topic.id}}'" class="btn post-button">Read more &nbsp;<i class="fa fa-arrow-right"></i></button>
+                </div>
+                
+            </div>
+            {% if not forloop.last %}
+            <hr>
+            {% endif %}
+            {% endfor %}
+            
+            <div class="pagination flex-row">
+                {% if topics.has_previous %}
+                <a href="?page={{topics.previous_page_number}}"> <i class="fas fa-chevron-left"></i></a>
+                {% endif %}
+                {% for num in topics.paginator.page_range %}
+                    {% if num > topics.number|add:'-2' and  num < topics.number|add:'2' %}
+                        <a href="?page={{num}}" class="pages">{{num}}</a>
+                    {% endif %}
+                {% endfor %}
+                {% if topics.has_next %}
+                <a href="?page={{topics.next_page_number}}"> <i class="fas fa-chevron-right"></i></a>
+                {% endif %}
+            </div>
+
+        </div>
+
+        <aside class="sidebar">
+            <div class="category">
+                <h2>Category</h2>
+                <ul class="category-list">
+
+                    {% for catagory in catagorys %}
+                    <li class="list-items">
+                        <a href="/catagory/{{catagory.id}}">{{catagory.catagory_name}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+
+            <div class="popular-post">
+
+                <h2>Popular Post</h2>
+               {% for popular in populars %}
+                <div class="post-content">
+            
+                    <div class="post-image">
+                        <div>
+                            <img src="{% get_media_prefix %}{{popular.sub_catagory_image}}" class="img" alt="{{popular.sub_catagory_name}}"> 
+                        </div>
+                        <div class="post-info flex-row">
+                            <span>
+                                <i class="fas fa-user text-gray">&nbsp;&nbsp;{{popular.author}}</i>
+                            </span>
+                            <span>
+                                <i class="fas fa-calendar-alt text-gray">&nbsp;&nbsp;{{popular.date_created}}</i>
+                            </span>
+                                <span>{{popular.comment_no}} Comments </span>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="post-title">
+                        <a href="/article/{{popular.id}}">{{popular.title}}</a>
+
+                    </div>
+                    
+                </div>
+                {% endfor %}
+
+            </div>
+
+            <div class="newsletter">
+                <h2>Newsletter</h2>
+                <div class="form-element">
+                    <form action="subscribe" method="post">
+                        {% csrf_token %}
+                        <input type="text" name="email" id="email" class="input-element" placeholder="Email">
+                        <button class="btn form-btn" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="popular-tags">
+                <h2>Popular Tag</h2>
+
+                <div class="tags flex-row">
+                    {% for carosel in carosels %}
+                    <span class="tag"><a href="/article/{{carosel.link}}">{{carosel.sub_catagory_name}}</a></span>
+                    
+                    {% endfor %}
+                </div>
+
+            </div>
+
+
+
+
+        </aside>
+
+
+    </div>

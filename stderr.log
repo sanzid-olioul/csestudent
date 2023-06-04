@@ -1,0 +1,1010 @@
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][666061] Child process with pid: 666068 was killed by signal: 15, core dump: 0
+[ERROR] [UID:1222][666332] wsgiHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 139, in get_response
+    set_urlconf(settings.ROOT_URLCONF)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/conf/__init__.py", line 104, in __getattr__
+    val = getattr(_wrapped, name)
+AttributeError: 'Settings' object has no attribute 'ROOT_URLCONF'
+[ERROR] [UID:1222][673519] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 139, in get_response
+    set_urlconf(settings.ROOT_URLCONF)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/conf/__init__.py", line 104, in __getattr__
+    val = getattr(_wrapped, name)
+AttributeError: 'Settings' object has no attribute 'ROOT_URLCONF'
+[ERROR] [UID:1222][673519] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 139, in get_response
+    set_urlconf(settings.ROOT_URLCONF)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/conf/__init__.py", line 104, in __getattr__
+    val = getattr(_wrapped, name)
+AttributeError: 'Settings' object has no attribute 'ROOT_URLCONF'
+[ERROR] [UID:1222][680778] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 139, in get_response
+    set_urlconf(settings.ROOT_URLCONF)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/conf/__init__.py", line 104, in __getattr__
+    val = getattr(_wrapped, name)
+AttributeError: 'Settings' object has no attribute 'ROOT_URLCONF'
+[ERROR] [UID:1222][680778] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 139, in get_response
+    set_urlconf(settings.ROOT_URLCONF)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/conf/__init__.py", line 104, in __getattr__
+    val = getattr(_wrapped, name)
+AttributeError: 'Settings' object has no attribute 'ROOT_URLCONF'
+[ERROR] [UID:1222][680931] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 139, in get_response
+    set_urlconf(settings.ROOT_URLCONF)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/conf/__init__.py", line 104, in __getattr__
+    val = getattr(_wrapped, name)
+AttributeError: 'Settings' object has no attribute 'ROOT_URLCONF'
+[ERROR] [UID:1222][680931] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 139, in get_response
+    set_urlconf(settings.ROOT_URLCONF)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/conf/__init__.py", line 104, in __getattr__
+    val = getattr(_wrapped, name)
+AttributeError: 'Settings' object has no attribute 'ROOT_URLCONF'
+[ERROR] [UID:1222][680931] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 139, in get_response
+    set_urlconf(settings.ROOT_URLCONF)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/conf/__init__.py", line 104, in __getattr__
+    val = getattr(_wrapped, name)
+AttributeError: 'Settings' object has no attribute 'ROOT_URLCONF'
+[ERROR] [UID:1222][680931] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 139, in get_response
+    set_urlconf(settings.ROOT_URLCONF)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/conf/__init__.py", line 104, in __getattr__
+    val = getattr(_wrapped, name)
+AttributeError: 'Settings' object has no attribute 'ROOT_URLCONF'
+Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'csestudent.com'. You may need to add 'csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Internal Server Error: /about
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/csestude/csestudent/about/views.py", line 8, in get
+    obj = AboutMe.objects.get(id = 1)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1533, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1383, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1193, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1681, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'id' into field. Choices are: description, description_id, education, education_id, email, image, languages, locations, name, occupation, phone_no, skills, work_experience, work_experience_id
+Not Found: /privacy/admin
+Internal Server Error: /admin/articles/quate/add/
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1804, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 922, in log_addition
+    return LogEntry.objects.log_action(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/models.py", line 38, in log_action
+    return self.model.objects.create(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1819, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1743, in as_sql
+    value_rows = [
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1744, in <listcomp>
+    [
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1745, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1684, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/fields/related.py", line 1129, in get_db_prep_save
+    return self.target_field.get_db_prep_save(value, connection=connection)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2745, in get_db_prep_value
+    value = connection.ops.validate_autopk_value(value)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/backends/mysql/operations.py", line 250, in validate_autopk_value
+    raise ValueError(
+ValueError: The database backend does not accept 0 as a value for AutoField.
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Internal Server Error: /admin/autocomplete/
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 261, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 444, in autocomplete_view
+    return AutocompleteJsonView.as_view(admin_site=self)(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/views/autocomplete.py", line 32, in get
+    self.object_list = self.get_queryset()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/views/autocomplete.py", line 57, in get_queryset
+    qs = self.model_admin.get_queryset(self.request)
+  File "/home/csestude/csestudent/articles/admin.py", line 48, in get_queryset
+    queryset = queryset.annotate(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1590, in annotate
+    return self._annotate(args, kwargs, select=True)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1638, in _annotate
+    clone.query.add_annotation(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1090, in add_annotation
+    annotation = annotation.resolve_expression(self, allow_joins=True, reuse=None)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/aggregates.py", line 64, in resolve_expression
+    c = super().resolve_expression(query, allow_joins, reuse, summarize)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/expressions.py", line 942, in resolve_expression
+    c.source_expressions[pos] = arg.resolve_expression(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/expressions.py", line 822, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1933, in resolve_ref
+    join_info = self.setup_joins(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1780, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1681, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'topicmodel' into field. Choices are: catagory, catagory_id, id, sub_catagory_image, sub_catagory_name, topic
+Internal Server Error: /admin/articles/catagory/add/
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1804, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 922, in log_addition
+    return LogEntry.objects.log_action(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/models.py", line 38, in log_action
+    return self.model.objects.create(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1819, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1743, in as_sql
+    value_rows = [
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1744, in <listcomp>
+    [
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1745, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1684, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/fields/related.py", line 1129, in get_db_prep_save
+    return self.target_field.get_db_prep_save(value, connection=connection)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2745, in get_db_prep_value
+    value = connection.ops.validate_autopk_value(value)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/backends/mysql/operations.py", line 250, in validate_autopk_value
+    raise ValueError(
+ValueError: The database backend does not accept 0 as a value for AutoField.
+Internal Server Error: /admin/articles/quate/add/
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 320, in _query
+    self._do_get_result(db)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 145, in _do_get_result
+    self._result = result = self._get_result()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 352, in _get_result
+    return self._get_db().store_result()
+MySQLdb.IntegrityError: (1062, "Duplicate entry '0' for key 'PRIMARY'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 320, in _query
+    self._do_get_result(db)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 145, in _do_get_result
+    self._result = result = self._get_result()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 352, in _get_result
+    return self._get_db().store_result()
+django.db.utils.IntegrityError: (1062, "Duplicate entry '0' for key 'PRIMARY'")
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][910898] Child process with pid: 910901 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][910898] Child process with pid: 910906 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][910898] Child process with pid: 910996 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][910898] Child process with pid: 910997 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][926107] Child process with pid: 926112 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][926107] Child process with pid: 926122 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][926107] Child process with pid: 926125 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][926107] Child process with pid: 926138 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1039583] Child process with pid: 1039586 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1039583] Child process with pid: 1039588 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1250617] Child process with pid: 1250622 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1250617] Child process with pid: 1250623 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1250619] Child process with pid: 1250627 was killed by signal: 15, core dump: 0
+[UID:1222][1250619] Child process with pid: 1250626 was killed by signal: 15, core dump: 0
+[UID:1222][1250619] Child process with pid: 1250629 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1250617] Child process with pid: 1250836 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1250617] Child process with pid: 1250837 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1465677] Child process with pid: 1465843 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1467137] Child process with pid: 1467340 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1467137] Child process with pid: 1472252 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1467137] Child process with pid: 1472406 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1633501] Child process with pid: 1633688 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1633501] Child process with pid: 1634725 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1633501] Child process with pid: 1634726 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1635001] Child process with pid: 1635204 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1635001] Child process with pid: 1639899 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/csestude/csestudent/passenger_wsgi.py", line 15, in <module>
+    from csestudent.wsgi import application
+  File "/home/csestude/csestudent/csestudent/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[UID:1222][1635001] Child process with pid: 1639961 was killed by signal: 15, core dump: 0
+Not Found: /favicon.ico
+Internal Server Error: /admin/articles/catagory/
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/views/main.py", line 77, in __init__
+    self.root_queryset = model_admin.get_queryset(request)
+  File "/home/csestude/csestudent/articles/admin.py", line 22, in get_queryset
+    queryset = queryset.annotate(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1590, in annotate
+    return self._annotate(args, kwargs, select=True)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1638, in _annotate
+    clone.query.add_annotation(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1090, in add_annotation
+    annotation = annotation.resolve_expression(self, allow_joins=True, reuse=None)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/aggregates.py", line 64, in resolve_expression
+    c = super().resolve_expression(query, allow_joins, reuse, summarize)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/expressions.py", line 942, in resolve_expression
+    c.source_expressions[pos] = arg.resolve_expression(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/expressions.py", line 822, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1933, in resolve_ref
+    join_info = self.setup_joins(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1780, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1681, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'subcatagorymodel' into field. Choices are: catagory_descriptions, catagory_name, id, subcatagory
+Internal Server Error: /admin/articles/catagory/
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/views/main.py", line 77, in __init__
+    self.root_queryset = model_admin.get_queryset(request)
+  File "/home/csestude/csestudent/articles/admin.py", line 22, in get_queryset
+    queryset = queryset.annotate(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1590, in annotate
+    return self._annotate(args, kwargs, select=True)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1638, in _annotate
+    clone.query.add_annotation(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1090, in add_annotation
+    annotation = annotation.resolve_expression(self, allow_joins=True, reuse=None)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/aggregates.py", line 64, in resolve_expression
+    c = super().resolve_expression(query, allow_joins, reuse, summarize)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/expressions.py", line 942, in resolve_expression
+    c.source_expressions[pos] = arg.resolve_expression(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/expressions.py", line 822, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1933, in resolve_ref
+    join_info = self.setup_joins(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1780, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1681, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'subcatagorymodel' into field. Choices are: catagory_descriptions, catagory_name, id, subcatagory
+Internal Server Error: /admin/articles/catagory/
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/contrib/admin/views/main.py", line 77, in __init__
+    self.root_queryset = model_admin.get_queryset(request)
+  File "/home/csestude/csestudent/articles/admin.py", line 22, in get_queryset
+    queryset = queryset.annotate(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1590, in annotate
+    return self._annotate(args, kwargs, select=True)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1638, in _annotate
+    clone.query.add_annotation(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1090, in add_annotation
+    annotation = annotation.resolve_expression(self, allow_joins=True, reuse=None)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/aggregates.py", line 64, in resolve_expression
+    c = super().resolve_expression(query, allow_joins, reuse, summarize)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/expressions.py", line 942, in resolve_expression
+    c.source_expressions[pos] = arg.resolve_expression(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/expressions.py", line 822, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1933, in resolve_ref
+    join_info = self.setup_joins(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1780, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1681, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'subcatagorymodel' into field. Choices are: catagory_descriptions, catagory_name, id, subcatagory
+Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+Not Found: /favicon.ico
+847 780
+Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /
+847 780
+Not Found: /article/1
+Not Found: /favicon.ico
+508 467
+1600 1472
+634 584
+Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Not Found: /article/1
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/csestude/virtualenv/csestudent/3.8/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.csestudent.com'. You may need to add 'www.csestudent.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico

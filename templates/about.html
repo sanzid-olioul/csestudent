@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+About Me !
+{% endblock title %}
+{% block links %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+{%endblock links%}
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+{% block content %}
+
+
+<body class="csehelp-light-grey">
+
+<!-- Page Container -->
+<div class="csehelp-content csehelp-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="csehelp-row-padding">
+  
+    <!-- Left Column -->
+    <div class="csehelp-third">
+    
+      <div class="csehelp-white csehelp-text-grey csehelp-card-4">
+        <div class="csehelp-display-container">
+          <img src="{{data.image.url}}" style="width:100%" alt="Avatar">
+          <div class="csehelp-display-bottomleft csehelp-container csehelp-text-black">
+            <h2 style="color:#374045;">{{ data.name }}</h2>
+          </div>
+        </div>
+        <div class="csehelp-container">
+          <p><i class="fa fa-briefcase fa-fw csehelp-margin-right csehelp-large csehelp-text-teal"></i>{{data.occupation}}</p>
+          <p><i class="fa fa-home fa-fw csehelp-margin-right csehelp-large csehelp-text-teal"></i>{{ data.locations }}</p>
+          <p><i class="fa fa-envelope fa-fw csehelp-margin-right csehelp-large csehelp-text-teal"></i>{{ data.email }}</p>
+          <p><i class="fa fa-phone fa-fw csehelp-margin-right csehelp-large csehelp-text-teal"></i>{{ data.phone_no }}</p>
+          <hr>
+
+          <p class="csehelp-large"><b><i class="fa fa-asterisk fa-fw csehelp-margin-right csehelp-text-teal"></i>Skills</b></p>
+          {% for skill in skills %}
+            <p>{{ skill.name_of_skill }}</p>
+            <div class="csehelp-light-grey csehelp-round-xlarge csehelp-small">
+              <div class="csehelp-container csehelp-center csehelp-round-xlarge csehelp-teal" style="width: {{ skill.known_parcent }}%">{{ skill.known_parcent }}%</div>
+            </div>
+
+          {% endfor %}
+
+
+          <br>
+
+          <p class="csehelp-large csehelp-text-theme"><b><i class="fa fa-globe fa-fw csehelp-margin-right csehelp-text-teal"></i>Languages</b></p>
+          {% for language in languages %}
+            <p>{{ language.language }}</p>
+            <div class="csehelp-light-grey csehelp-round-xlarge">
+              <div class="csehelp-round-xlarge csehelp-teal" style="height:24px; width: {{ language.known_parcent }}%"></div>
+            </div>
+
+          {% endfor %}
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="csehelp-twothird">
+
+
+      <!-- About me Introduction -->
+
+      <div class="csehelp-container csehelp-card csehelp-white csehelp-margin-bottom">
+        <h2 class="csehelp-text-grey csehelp-padding-16"><i class="fas fa-info-circle fa-fw csehelp-margin-right csehelp-xxlarge csehelp-text-teal"></i>About Me!</h2>
+        <div class="csehelp-container">
+          <h5 class="csehelp-opacity"><b>{{description.header}}</b></h5>
+
+          <p>&nbsp;&nbsp;&nbsp;&nbsp; {{description.descroption}}</p>
+        </div>
+      </div>
+
+      <!-- About me Introduction end -->
+
+
+      <!-- About me Experience -->
+    
+      <div class="csehelp-container csehelp-card csehelp-white csehelp-margin-bottom">
+        <h2 class="csehelp-text-grey csehelp-padding-16"><i class="fa fa-suitcase fa-fw csehelp-margin-right csehelp-xxlarge csehelp-text-teal"></i>Work Experience</h2>
+        <div class="csehelp-container">
+          <h5 class="csehelp-opacity"><b>{{work_experience.name_of_company}}</b></h5>
+          <h6 class="csehelp-text-teal"><i class="fa fa-calendar fa-fw csehelp-margin-right"></i>{{work_experience.duration}} - <span class="csehelp-tag csehelp-teal csehelp-round">Current</span></h6>
+          <p> {{work_experience.description}}</p>
+        </div>
+      </div>
+
+      <!-- About me Experience end-->
+
+      <!-- About me Education -->
+
+      <div class="csehelp-container csehelp-card csehelp-white">
+        <h2 class="csehelp-text-grey csehelp-padding-16"><i class="fa fa-certificate fa-fw csehelp-margin-right csehelp-xxlarge csehelp-text-teal"></i>Education</h2>
+        <div class="csehelp-container">
+          <h5 class="csehelp-opacity">
+            <b>{{education.name_of_university}}</b></h5>
+            <h6 class="csehelp-text-teal"><i class="fa fa-calendar fa-fw csehelp-margin-right"></i>{{education.start_and_end_year_of_university}}</h6>
+            <p>{{education.type_of_degree}} in {{education.name_of_depertment}}</p>
+        </div>
+      </div>
+      <!-- About me Education ends -->
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+</body>
+{% endblock content %}

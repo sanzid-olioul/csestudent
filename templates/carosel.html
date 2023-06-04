@@ -1,0 +1,30 @@
+{% load static %}
+<div class="blog">
+    <div class="container">
+        <div class="owl-carousel owl-theme blog-post">
+            {% for carosel in carosels %}
+            <div class="blog-content">
+                <img src="{% get_media_prefix %}{{carosel.sub_catagory_image}}" alt="Post One">
+                <div class="blog-title">
+                    <h2>{{carosel.sub_catagory_name}}</h2>
+                    <button class="btn btn-blog" onclick="window.location.href='/article/{{carosel.link}}'">Learn</button>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="owl-navigation">
+
+            <span class="owl-nav-prev">
+                <i class="fas fa-long-arrow-alt-left"></i>
+            </span>
+            
+            <span class="owl-nav-next">
+                <i class="fas fa-long-arrow-alt-right"></i>
+            </span>
+        </div>
+
+
+    </div>
+
+</div>
